@@ -1,0 +1,241 @@
+2026-06-29 12:44:54,886 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-06-29 12:44:57,330 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-06-29 12:45:23,229 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Connection._send_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\connection\connection.py:322> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-06-29 12:45:23,230 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._recv_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\connection\connection.py:341> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-06-29 12:45:23,231 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<MTProtoSender._send_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\mtprotosender.py:495> wait_for=<Future finished result=None>>
+2026-06-29 12:45:23,231 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._recv_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\mtprotosender.py:513> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-06-29 12:45:23,231 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<UpdateMethods._update_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-06-29 12:45:23,231 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<UpdateMethods._keepalive_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\client\updates.py:521> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Program Files\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-06-29 12:45:23,231 - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-06-29 12:45:23,269 - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+  File "C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-06-29 12:45:23,282 - ERROR - Fatal error handling updates (this is a bug in Telethon v1.44.0, please report it)
+Traceback (most recent call last):
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+  File "C:\Program Files\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-06-29 12:45:30,682 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-06-29 12:45:30,805 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-06-29 12:45:41,854 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-2' coro=<Connection._send_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\connection\connection.py:322> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-06-29 12:45:41,855 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-3' coro=<Connection._recv_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\connection\connection.py:341> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-06-29 12:45:41,855 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-4' coro=<MTProtoSender._send_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\mtprotosender.py:495> wait_for=<Future finished result=None>>
+2026-06-29 12:45:41,855 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-5' coro=<MTProtoSender._recv_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\mtprotosender.py:513> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-06-29 12:45:41,855 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-6' coro=<UpdateMethods._update_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\client\updates.py:485> wait_for=<Future pending cb=[Task.task_wakeup()]>>
+2026-06-29 12:45:41,856 - ERROR - Task was destroyed but it is pending!
+task: <Task pending name='Task-7' coro=<UpdateMethods._keepalive_loop() running at C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\client\updates.py:521> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Program Files\Python314\Lib\asyncio\tasks.py:991, Task.task_wakeup()]>>
+2026-06-29 12:45:41,856 - ERROR - Unexpected exception in the send loop
+Traceback (most recent call last):
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\connection\connection.py", line 322, in _send_loop
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-06-29 12:45:41,857 - ERROR - Unhandled error while receiving data
+Traceback (most recent call last):
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\mtprotosender.py", line 513, in _recv_loop
+  File "C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\network\connection\connection.py", line 308, in recv
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-06-29 12:45:41,859 - ERROR - Fatal error handling updates (this is a bug in Telethon v1.44.0, please report it)
+Traceback (most recent call last):
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 186, in get
+GeneratorExit
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Soret\medical-telegram-warehouse\venv\Lib\site-packages\telethon\client\updates.py", line 485, in _update_loop
+  File "C:\Program Files\Python314\Lib\asyncio\tasks.py", line 488, in wait_for
+  File "C:\Program Files\Python314\Lib\asyncio\queues.py", line 188, in get
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 827, in call_soon
+    self._check_closed()
+  File "C:\Program Files\Python314\Lib\asyncio\base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-06-29 13:13:10,143 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2026-06-29 13:13:10,278 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2026-06-29 13:13:19,323 - INFO - Phone migrated to 4
+2026-06-29 13:13:19,468 - INFO - Reconnecting to new data center 4
+2026-06-29 13:13:19,796 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2026-06-29 13:13:19,798 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2026-06-29 13:13:19,799 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-06-29 13:13:21,832 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-06-29 13:13:44,327 - INFO - Started scraping lobelia4cosmetics
+2026-06-29 13:13:45,497 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:13:48,484 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:13:51,110 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:13:54,778 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:13:57,843 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:18,798 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:22,471 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:25,724 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:29,363 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:31,294 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:32,336 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:34,976 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:36,659 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:41,020 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:46,741 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:14:59,074 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:01,405 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:14,875 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:22,736 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:26,795 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:29,250 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:30,903 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:34,726 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:35,849 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:38,716 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:41,523 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:42,597 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:43,834 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:15:45,608 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:09,353 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:11,811 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:16,212 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:17,745 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:21,706 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:22,966 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:25,048 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:27,090 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:28,896 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:29,379 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:31,631 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:33,532 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:34,641 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:35,415 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:37,658 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:40,538 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:42,186 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:42,975 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:16:45,573 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:17:39,508 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:17:45,328 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:17:51,757 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:17:58,814 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:03,361 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:09,450 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:17,413 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:22,897 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:30,010 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:39,145 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:45,708 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:46,414 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:18:53,699 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:03,627 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:05,037 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:20,790 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:26,126 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:29,342 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:32,030 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:34,770 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:37,282 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:19:39,478 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:03,777 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:06,796 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:09,336 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:11,593 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:14,681 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:17,981 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:20,718 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:23,465 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:26,798 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:28,644 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:30,681 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:33,932 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:40,165 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:42,663 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:46,309 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:20:50,222 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:07,309 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:09,380 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:11,672 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:14,946 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:18,574 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:24,075 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:28,154 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:32,515 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:35,342 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:35,832 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:39,386 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:44,809 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:54,872 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:55,335 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2026-06-29 13:21:55,482 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2026-06-29 13:21:56,903 - INFO - Started scraping lobelia4cosmetics
+2026-06-29 13:21:57,514 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:57,783 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:21:59,247 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:22:00,217 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:22:01,801 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:22:12,677 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 13:22:17,093 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2026-06-29 13:22:17,095 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
