@@ -5225,3 +5225,15 @@ RuntimeError: Event loop is closed
 2026-06-29 20:56:20,967 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
 2026-06-29 20:56:23,023 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
 2026-06-29 20:56:27,001 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:56:29,887 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:56:32,710 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:56:34,575 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:03,577 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:08,663 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:28,779 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:30,865 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:31,854 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:35,287 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:37,098 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:38,958 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2026-06-29 20:57:40,087 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
