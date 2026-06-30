@@ -1,14 +1,14 @@
 import os
-from dotenv import load_dotenv
 from telethon import TelegramClient
+from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
+api_id = int(os.getenv("API_ID"))
+api_hash = os.getenv("API_HASH")
 
 client = TelegramClient(
     "medical_session",
-    API_ID,
-    API_HASH
+    api_id,
+    api_hash
 )
